@@ -1,3 +1,5 @@
+//Npx create-react-app newapp (Creates file structure)  //then cd newapp / npm start
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
