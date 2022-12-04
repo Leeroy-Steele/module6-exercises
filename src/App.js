@@ -1,17 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-//// Components
+//// Components - They need to start with capital letter
 
-import GreetingClassComponent from './components/GreetingClassComponent'  // component needs to start with capital letter
+import GreetingClassComponent from './components/GreetingClassComponent' 
 import EmojisFunctionComponent from './components/EmojisFunctionComponent'
+import APICall from './components/PokemonAPICall'
+
+import HeaderSection from './components/HeaderSection'
+import FooterSection from './components/FooterSection'
+import LeftNav from './components/LeftNav'
 
 function App() {
   return (
     <div className="App">
       <div className="App-header">
         {/* <GreetingClassComponent name= {'Lee'}></GreetingClassComponent> */}
-        <EmojisFunctionComponent></EmojisFunctionComponent>
+        {/* <EmojisFunctionComponent></EmojisFunctionComponent> */}
+        {/* <APICall></APICall> */}
+
+        <HeaderSection></HeaderSection>
+        <LeftNav></LeftNav>
+        <FooterSection></FooterSection>
       </div>
     </div>
   );

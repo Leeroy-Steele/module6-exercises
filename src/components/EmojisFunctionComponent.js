@@ -18,28 +18,22 @@ export default function EmojisFunctionComponent() {
             case 1:
               parentElement.innerHTML = emoji1; 
               count++;
-              console.log(count)
               break;
             case 2:
                 parentElement.innerHTML = emoji2; 
                 count++;
-                console.log(count)
               break;
             case 3:
                 parentElement.innerHTML = emoji3; 
                 count++;
-                console.log(count)
               break;
             case 4:
                 parentElement.innerHTML = emoji4; 
                 count++;
-                console.log(count)
               break;
             case 5:
                 parentElement.innerHTML = emoji5; 
                 count=1;
-                console.log(count)
-
           }
         
     }
